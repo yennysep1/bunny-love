@@ -1,0 +1,37 @@
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+header {
+	background-color: #037f99;
+	height: 70px;
+}
+
+header h1 {
+	font-family: 'Baloo Paaji';
+	color: #EA5F48;
+	font-size: 23px;
+	padding-top: 10px;
+}
+
+header a {
+	font-family: 'Prompt', sans-serif;
+	text-decoration: none;
+	color: #F2EEEE;
+	font-size: 12px;
+	margin-left: 21px;
+}
+
+span {
+	color: #fff;
+}
+
+nav {
+	margin-top: 24px;
+}
+
+.principal {
+	background-image: url(../img/img-1.jpg);
+}
