@@ -1,9 +1,16 @@
 
+
 *{
 	margin: 0 auto;
 	padding: 0 auto;
 }
+/* ESTILOS TOOGLE MENU*/
+.togger{
+	display: none;
+	background-color: none;
+}
 
+/* ESTILOS HEADER*/
 header {
 	background-color: #037f99;
 	height: 70px;
@@ -32,6 +39,149 @@ nav {
 	margin-top: 24px;
 }
 
+/* ESTILOS BANNER*/
+
 .principal {
 	background-image: url(../img/img-1.jpg);
+	height: 350px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.cuadrado{
+	background-color: rgba(9, 123, 141, 0.7);
+	width: 75%;
+	margin: 35px 100px;
+	height: 40vh;
+	text-align: center;
+	padding-top: 30px;
+}
+.soft{
+	font-family: 'Baloo Paaji';
+	color: #EA5F48;
+	font-size: 70px;
+}
+.live {
+	color: white;
+}
+/* segunda seccion*/
+.foto{
+	width: 100%;
+	height: 150px;
+	
+	
+}
+.the{
+	font-family: 'Baloo Paaji';
+	font-size: 15px;
+	color: #EA5F48;
+}
+.tale{
+	font-size: 15px;
+	padding: 10px;
+}
+.uno{
+	background-color: #037f99;
+	text-align: center;
+	width: 100%;
+	
+}
+.hola{
+	padding: 15px 5px 0 5px;
+	
+}
+/* tercera seccion*/
+.fotos{
+	width: 100%;
+	height: 300px;
+}
+iframe{
+	width: 100%;
+	height: 280px;
+}
+.bg-conejos{
+	background-color: #037f99;
+	padding: 10px;
+	margin-top: 15px;
+}
+.dos{
+	background-color: #c8e1e6;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.search{
+	background-color: #C6E3F5;
+	padding: 10px 30px;
+	margin-top: -8px;
+	margin-bottom: 5px;
+	width: 240px;
+	border-radius: 3px;
+}
+.box{
+	padding: 7px;
+}
+input{
+	padding: 5px 65px;
+	border-radius: 3px;
+	text-align: left;
+	border: none;
+}
+.fa{
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	margin-left: 5px;
+	color: #1a9bed;
+	padding-bottom: 10px;
+}
+.bunny{
+	height: 240px;
+}
+.video{
+	padding: 10px;
+}
+
+.fondo-conejo {
+	background-image: url(../img/bunny-head.png);
+	background-repeat: repeat-x;
+	background-size: 100px;
+	padding: 5px;
+	height: 50px;
+}
+
+footer{
+	text-align: center;
+	background-color: #037f99;
+	height: 50px;
+	color: #fff;
+	padding-top: 20px;
+}
+.cuatro{
+	color: white;
+}
+/* responsive*/
+@media (max-width: 535px){
+	nav{
+		display: none;
+	}
+	.togger{
+		display: block;
+		font-size: 30px;
+		background: none;
+		color: black;
+		text-align: right;
+		margin-top: -40px;
+	}
+	.soft{
+		font-size: 50px;
+	}
+	.cuadrado{
+		margin-left: 40px;
+	}
+}
+}
+
+
 }
